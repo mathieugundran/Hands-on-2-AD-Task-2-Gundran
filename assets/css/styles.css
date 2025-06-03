@@ -1,0 +1,101 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d1e; 
+    color: #e0e0f0; 
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #1a1a3a; 
+    padding: 1rem 0;
+    border-bottom: 2px solid #4a4a8a;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #a0a0ff; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    padding: 40px 0;
+    min-height: 70vh;
+}
+
+main h1, main h2, main h3 {
+    color: #6a6aff; 
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+main p {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main ul {
+    list-style: disc inside;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+main ul li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #8888ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1a1a3a;
+    color: #8888aa;
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 2px solid #4a4a8a;
+}
