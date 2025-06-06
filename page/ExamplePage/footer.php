@@ -1,6 +1,6 @@
 <footer>
     <div class="container">
-        <p>Galactic Explorers.</p>
+        <p>Japanese Domestic Market.</p>
     </div>
 </footer>
 </body>

@@ -1,12 +1,11 @@
-
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0d0d1e; 
-    color: #e0e0f0; 
+    background-color: #1D1616; /* Deep charcoal for the main background */
+    color: #EEEEEE; /* Soft white for primary text, ensuring readability */
     line-height: 1.6;
+    text-align: center;
 }
 
 .container {
@@ -16,9 +15,9 @@ body {
 }
 
 header {
-    background-color: #1a1a3a; 
+    background-color: #1D1616; /* Matches the body for a unified dark theme */
     padding: 1rem 0;
-    border-bottom: 2px solid #4a4a8a;
+    border-bottom: 2px solid #8E1616; /* A darker red for a subtle yet defined border */
 }
 
 header .container {
@@ -44,23 +43,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #a0a0ff; 
+    color: #D84040; /* Vibrant red for navigation links, making them pop */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #ffffff;
+    color: #EEEEEE; /* Lightest color on hover for clear interaction feedback */
 }
 
 main {
     padding: 40px 0;
     min-height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    text-align: left;
 }
 
 main h1, main h2, main h3 {
-    color: #6a6aff; 
+    color: #D84040; /* Vibrant red for all main headings */
     text-align: center;
     margin-bottom: 25px;
 }
@@ -84,7 +87,7 @@ main ul li {
 }
 
 a {
-    color: #8888ff;
+    color: #D84040; /* General links also use the vibrant red */
     text-decoration: none;
 }
 
@@ -93,9 +96,9 @@ a:hover {
 }
 
 footer {
-    background-color: #1a1a3a;
-    color: #8888aa;
+    background-color: #1D1616; /* Consistent dark background for the footer */
+    color: #8E1616; /* Darker red for footer text, offering a subtle presence */
     text-align: center;
     padding: 1.5rem 0;
-    border-top: 2px solid #4a4a8a;
+    border-top: 2px solid #8E1616; /* Darker red for the footer border */
 }
